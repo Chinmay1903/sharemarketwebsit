@@ -1,0 +1,97 @@
+.title
+{
+    margin-top: 30px;
+    font-size: 50px;
+    color: #5d5d5d;
+    font-style: oblique;
+}
+.para
+{
+    font-size: 18px;
+    -webkit-text-stroke: white;
+    font-style: oblique;
+}
+.para1
+{
+    font-size: 18px;
+    -webkit-text-stroke: white;
+    font-style: oblique;
+}
+.members
+{
+    padding: 20px 40px;
+
+}
+.mem-img
+{
+    width: 180px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+.mem-info
+{
+    margin-left: 20px;
+}
+.mem-icon
+{
+    margin-left: 25px;
+}
+.h-doc-1
+{
+    font-size: 24px;
+    font-weight: 700;
+    color: #2c4964;
+    margin-bottom: 5px;
+}
+.p-doc-1
+{
+    color: #444444;
+    font-weight: 400;
+    font-size: 17px;
+}
+.bor-doc {
+    width: 25%;
+    margin-top: 6px;
+    margin-bottom: 9px;
+}
+.ima
+{
+    border-radius: 15%;
+    height: 76px;
+    width: 80px;
+    margin-left: 70px;
+}
+
+.h-nav
+{
+    margin-top:24px;
+}
+
+.bg-sky 
+{
+    background-color: #f6f8fb;
+}
+.h-na
+{
+    color: cadetblue;
+}
+.nav-img
+{
+    padding: 50px;
+  
+    transition: 0.5s;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 100px;
+    
+}
+
+.nav-img:hover
+{
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+}
