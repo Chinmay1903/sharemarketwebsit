@@ -1,6 +1,12 @@
+.bg-sky
+{
+    background-color: #e4f4fa;
+    
+}
+
 .bg-img
 {
-    background-image: url(img2/bgimage.jfif);
+    background-image: url(img2/shutterstock_601834022.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
@@ -52,4 +58,54 @@
 .pt-6
 {
     padding-top: 150px!important;
+}
+.mc-r
+{
+    margin-top: 50px;
+    background-color: aliceblue;
+    margin-bottom: 50px;
+}
+.ptb
+{
+    padding: 36px 30px;
+}
+.icy
+{
+    
+    color: #fff;
+
+}
+.cbox
+{
+    padding: 10px;
+}
+ul.menu {
+    margin-top: 20px;
+    float: right;
+}
+
+
+h2.down {
+    margin-top: 20px;
+    color: cornflowerblue;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 700;
+    font-family: math;
+}
+.last-link
+{
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    background: #1977cc;
+    color: #fff;
+    line-height: 1;
+    padding: 10px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 39px;
+    height: 40px;
+    transition: 0.3s;
 }
