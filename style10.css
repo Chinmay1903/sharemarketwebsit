@@ -1,3 +1,44 @@
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
 .bg-sky
 {
     background-color: #f6f8fb;
@@ -194,6 +235,7 @@ color: #fff!important;}
 .mbp
 {
     margin-top: 25px;
+   
 }
 .mw
 {
@@ -225,15 +267,15 @@ color: #fff!important;}
 }
 .plr
 {
-    padding: 0px 40px;
+    padding: 10px 40px;
     
 }
 .news-sec1
 {
-    border:2px solid black;
+    
     padding:  0px 15px;
     border-radius: 15px;
-    box-shadow: 4px 6px 7px 1px;
+    box-shadow: 5px 6px 10px -3px;
     background: white;
 }
 .p-news2
@@ -306,7 +348,7 @@ color: #fff!important;}
 }
 .mtn
 {
-    margin-top: 15px;
+    margin-top:39px;
 }
 .n-fs
 {
@@ -340,3 +382,102 @@ color: #fff!important;}
 {
     margin-right: 5px;
 }
+
+
+
+
+.fe-img
+{
+    width: 121%;
+}
+.lnf
+{
+    margin-bottom: 17px;
+}
+.lbg
+{
+    background-color: #f6f8fb;
+    margin-top: 30px;
+}
+
+.plc
+{
+    padding: 30px 15px;
+}
+
+
+.last-icon
+{
+    margin-top: -7px;
+}
+
+.link-last
+{
+    list-style: none;
+    float: left;
+}
+.icy
+{
+    color: red;
+}
+.fs
+{
+    font-size: 25px;
+    margin-left: 15px;
+}
+.lmt
+{
+    margin-top: 30px;
+}
+
+
+.fsc
+{
+    font-size: 25px;
+    color: #b81531;
+    margin-left: 15px;
+}
+.lst-p
+{
+    margin-left: 68px;
+    margin-top: 6px;
+
+}
+
+
+
+
+.mt-20
+{
+    margin-top: 2rem;
+}
+img.nav-img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.nav-text {
+    padding: 5px 8px;
+}
+.nav-news {
+    box-shadow: 1px 6px 10px -2px;
+    border-radius: 10px;
+}
+.nav-p
+{
+    margin-top: 20px;
+}
+.a-nav
+{
+    text-decoration: none;
+    color: black;
+
+}
+.l-time
+{
+    margin-bottom: 0px;
+    font-size: 11px;
+
+}
+/* list-style*/
+
+
