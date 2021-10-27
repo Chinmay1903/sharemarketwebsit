@@ -19,7 +19,7 @@ if (isMobileDevice) {
 function openNav() {
  
  if (isMobileDevice) {
-   document.getElementById("myNav").style.width = "100%";
+   document.getElementById("myNav").style.width = "65%";
  } else {
    document.getElementById("myNav").style.width = "20%";
  }
