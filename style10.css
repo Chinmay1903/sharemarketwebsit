@@ -518,7 +518,7 @@ img.nav-img {
 {
     color:black;
 }
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 767px) {
     .overlay a {font-size: 20px}
     .overlay .closebtn {
     font-size: 40px;
