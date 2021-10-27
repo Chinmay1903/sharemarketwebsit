@@ -5,30 +5,18 @@
 .title
 {
     margin-top: 15px;
-    font-size: 50px;
-    color: #5d5d5d;
-    font-style: oblique;
+    font-size: 40px;
 }
 .para
 {
-    font-size: 18px;
+    font-size: 15px;
     -webkit-text-stroke: white;
     font-style: oblique;
 }
-.para1
-{
-    font-size: 18px;
-    -webkit-text-stroke: white;
-    font-style: oblique;
-}
-.members
-{
-    padding: 20px 40px;
 
-}
 .mem-img
 {
-    width: 180px;
+    
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -36,7 +24,7 @@
 }
 .mem-info
 {
-    margin-left: 67px;
+    padding: 0px 0px 0px 20px;
 }
 .mem-icon
 {
@@ -53,7 +41,7 @@
 {
     color: #444444;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 14px;
 }
 .bor-doc {
     width: 25%;
@@ -65,24 +53,22 @@
     border-radius: 15%;
     height: 138px;
     width: 135px;
-    margin-left: 70px;
 }
 
 .h-nav
 {
-    margin-top:24px;
+    margin-top:3px;
 }
 
 .bg-sky 
 {
-    background-color: #f6f8fb;
-    
+    background-color: #eeeeee;
 }
 .h-na
 {
     color: cadetblue;
 }
-.nav-img
+.nav-img2
 {
     padding: 50px;
   
@@ -94,7 +80,7 @@
     
 }
 
-.nav-img:hover
+.nav-img2:hover
 {
     -ms-transform: scale(1.5); 
     -webkit-transform: scale(1.5); 
@@ -102,17 +88,14 @@
 }
 .founder
 {
-    font-size: 22px;
+    font-size: 16px;
     padding: 15px 20px;
 
 }
 .menu1{margin-top: 20px;
         float:right;}
 
- ul.menu {
-            margin-top: 20px;
-            float: right;
-        }
+
         
         
  h2.down {
@@ -123,3 +106,38 @@
             font-weight: 700;
             font-family: math;
         }
+
+        .logo-img
+        {   
+            height: 30px;
+            margin-top: 13px;
+            margin-left: 5px;
+        }
+        @media (max-width: 640px){
+            .founder {
+                font-size: 12px;
+                
+            }
+            .para {
+                font-size: 11px;
+                -webkit-text-stroke: white;
+                font-style: oblique;
+            }
+            .p-doc-1 {
+                color: #444444;
+                font-weight: 400;
+                font-size: 11px;
+            }
+            .h-doc-1 {
+                font-size: 15px;
+                font-weight: 600;
+                color: #2c4964;
+                margin-bottom: 5px;
+            }
+            .spn-m {
+                font-size: 12px;
+            }
+            .members.d-flex.ms-t {
+                margin-top: 24px;
+            }
+           }  
