@@ -527,7 +527,7 @@ img.nav-img {
     }
   
   }
-@media (max-width:640px)
+  @media screen and (max-width: 767px)
 {
     .col-sm-mb
     {
